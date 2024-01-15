@@ -1,0 +1,941 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openrocket version="1.9" creator="OpenRocket 23.09">
+  <rocket>
+    <name>Centuri Arrow 300</name>
+    <id>e4df1038-1e1a-448e-a30b-e98428a7235e</id>
+    <axialoffset method="absolute">0.0</axialoffset>
+    <position type="absolute">0.0</position>
+    <motorconfiguration configid="eb644d0a-1ee2-4212-b16b-52769dc831ce">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+      <stage number="2" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="5a3cf05d-70fb-4403-b029-7e8fef10c6bf">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+      <stage number="2" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="f669d7bd-2a19-481c-b226-ca6211699ee3" default="true">
+      <stage number="0" active="true"/>
+      <stage number="1" active="true"/>
+      <stage number="2" active="true"/>
+    </motorconfiguration>
+    <referencetype>maximum</referencetype>
+
+    <subcomponents>
+      <stage>
+        <name>Sustainer</name>
+        <id>5f245e42-0b20-49e4-9ab6-0ec4b95a5df3</id>
+
+        <subcomponents>
+          <nosecone>
+            <name>Nose Cone, PNC-89</name>
+            <id>f61d6602-a9ce-4460-8aea-d2e3dab8585b</id>
+            <preset type="NOSE_CONE" manufacturer="SEMROC" partno="BC-846G" digest="84c00ddbb78c7805d8254ebbd0f1c239"/>
+            <appearance>
+              <paint red="0" green="0" blue="0" alpha="255"/>
+              <shine>0.3</shine>
+            </appearance>
+            <finish>normal</finish>
+            <material type="bulk" density="112.0">Balsa, bulk, 7lb/ft3</material>
+            <length>0.11683999999999999</length>
+            <thickness>filled</thickness>
+            <shape>ogive</shape>
+            <shapeparameter>1.0</shapeparameter>
+            <aftradius>0.0115316</aftradius>
+            <aftshoulderradius>0.010960099999999999</aftshoulderradius>
+            <aftshoulderlength>0.017272</aftshoulderlength>
+            <aftshoulderthickness>0.010960099999999999</aftshoulderthickness>
+            <aftshouldercapped>false</aftshouldercapped>
+            <isflipped>false</isflipped>
+          </nosecone>
+
+          <bodytube>
+            <name>Body Tube, ST-8800</name>
+            <id>81b74708-a286-47b9-a3e9-63a30eafa977</id>
+            <preset type="BODY_TUBE" manufacturer="SEMROC" partno="ST-8800" digest="099a6d2f0cb69516884dccacc65e357b"/>
+            <appearance>
+              <paint red="255" green="243" blue="0" alpha="255"/>
+              <shine>0.3</shine>
+              <decal name="decals/Payload wrap.png" rotation="0.0" edgemode="REPEAT">
+                <center x="0.0" y="0.0"/>
+                <offset x="0.0" y="0.0"/>
+                <scale x="1.0" y="1.0"/>
+              </decal>
+            </appearance>
+            <finish>normal</finish>
+            <material type="bulk" density="894.4">Paper, spiral kraft glassine, Estes avg, bulk</material>
+            <length>0.2032</length>
+            <thickness>5.461000000000008E-4</thickness>
+            <radius>0.0115316</radius>
+
+            <subcomponents>
+              <bulkhead>
+                <name>Coupler, BTC-8</name>
+                <id>71608e8f-f647-41de-b432-eb49cf184127</id>
+                <preset type="BULK_HEAD" manufacturer="SEMROC Astronautics" partno="BTC-8" digest="01270d5ea6b08c0ef8846ef28cd96826"/>
+                <instancecount>1</instancecount>
+                <instanceseparation>0.0</instanceseparation>
+                <axialoffset method="bottom">0.015875</axialoffset>
+                <position type="bottom">0.015875</position>
+                <material type="bulk" density="111.86806033756541">Balsa</material>
+                <length>0.0254</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.010985499999999999</outerradius>
+              </bulkhead>
+            </subcomponents>
+          </bodytube>
+
+          <bodytube>
+            <name>Body Tube, ST-8157</name>
+            <id>446c470a-7f53-4851-905d-9821a882be92</id>
+            <preset type="BODY_TUBE" manufacturer="SEMROC" partno="ST-8157" digest="926cc35e4e0d8797077c63a2fde99f50"/>
+            <appearance>
+              <paint red="255" green="243" blue="0" alpha="255"/>
+              <shine>0.3</shine>
+              <decal name="decals/Airframe wrap.png" rotation="0.0" edgemode="REPEAT">
+                <center x="0.0" y="0.0"/>
+                <offset x="0.0" y="0.0"/>
+                <scale x="1.0" y="1.0"/>
+              </decal>
+            </appearance>
+            <finish>normal</finish>
+            <material type="bulk" density="894.4">Paper, spiral kraft glassine, Estes avg, bulk</material>
+            <length>0.40004999999999996</length>
+            <thickness>5.461000000000008E-4</thickness>
+            <radius>0.0115316</radius>
+
+            <subcomponents>
+              <shockcord>
+                <name>Shock Cord</name>
+                <id>d0dee7f9-04a5-4587-aeed-db1dbdfa01b6</id>
+                <axialoffset method="top">0.10159999999999998</axialoffset>
+                <position type="top">0.10159999999999998</position>
+                <packedlength>0.03236833631273599</packedlength>
+                <packedradius>auto 0.010985499999999999</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cordlength>0.9144</cordlength>
+                <material type="line" density="0.00106">Elastic braided cord (flat 3.2 mm, 1/8 in)</material>
+              </shockcord>
+
+              <podset>
+                <name>Pod Set</name>
+                <id>4cc1b616-ea7e-4fe4-b0b9-9eebb981ace7</id>
+                <instancecount>1</instancecount>
+                <radiusoffset method="free">0.0</radiusoffset>
+                <angleoffset method="relative">0.0</angleoffset>
+                <axialoffset method="bottom">0.05714999999999998</axialoffset>
+                <position type="bottom">0.05714999999999998</position>
+
+                <subcomponents>
+                  <bodytube>
+                    <name>18mm MMT, ST-730</name>
+                    <id>9df57220-f9e7-4636-a07a-4b79797eb864</id>
+                    <preset type="BODY_TUBE" manufacturer="SEMROC" partno="ST-730" digest="2fb9fcdcff1cc845a02e4e322693ede0"/>
+                    <appearance>
+                      <paint red="255" green="243" blue="0" alpha="255"/>
+                      <shine>0.3</shine>
+                      <decal name="decals/Airframe MMT wrap.png" rotation="0.0" edgemode="REPEAT">
+                        <center x="0.0" y="0.0"/>
+                        <offset x="0.0" y="0.0"/>
+                        <scale x="1.0" y="1.0"/>
+                      </decal>
+                    </appearance>
+                    <finish>normal</finish>
+                    <material type="bulk" density="894.4">Paper, spiral kraft glassine, Estes avg, bulk</material>
+                    <length>0.07619999999999999</length>
+                    <thickness>5.587999999999999E-4</thickness>
+                    <radius>0.0096393</radius>
+                    <motormount>
+                      <ignitionevent>automatic</ignitionevent>
+                      <ignitiondelay>0.0</ignitiondelay>
+                      <overhang>0.003175</overhang>
+                      <motor configid="eb644d0a-1ee2-4212-b16b-52769dc831ce">
+                        <type>single</type>
+                        <manufacturer>Estes</manufacturer>
+                        <digest>8fbab50705ef08feeed006ffcabdd280</digest>
+                        <designation>1/2A6</designation>
+                        <diameter>0.018</diameter>
+                        <length>0.07</length>
+                        <delay>2.0</delay>
+                      </motor>
+                      <ignitionconfiguration configid="eb644d0a-1ee2-4212-b16b-52769dc831ce">
+                        <ignitionevent>burnout</ignitionevent>
+                        <ignitiondelay>0.0</ignitiondelay>
+                      </ignitionconfiguration>
+                      <motor configid="5a3cf05d-70fb-4403-b029-7e8fef10c6bf">
+                        <type>single</type>
+                        <manufacturer>Estes</manufacturer>
+                        <digest>22aec01287ea1e3b8c6f66b26fe5fea6</digest>
+                        <designation>A8</designation>
+                        <diameter>0.018</diameter>
+                        <length>0.07</length>
+                        <delay>5.0</delay>
+                      </motor>
+                      <ignitionconfiguration configid="5a3cf05d-70fb-4403-b029-7e8fef10c6bf">
+                        <ignitionevent>burnout</ignitionevent>
+                        <ignitiondelay>0.0</ignitiondelay>
+                      </ignitionconfiguration>
+                      <motor configid="f669d7bd-2a19-481c-b226-ca6211699ee3">
+                        <type>single</type>
+                        <manufacturer>Estes</manufacturer>
+                        <digest>524787762ca4da7db6dbfb7e43b4cd09</digest>
+                        <designation>B6</designation>
+                        <diameter>0.018</diameter>
+                        <length>0.07</length>
+                        <delay>6.0</delay>
+                      </motor>
+                      <ignitionconfiguration configid="f669d7bd-2a19-481c-b226-ca6211699ee3">
+                        <ignitionevent>burnout</ignitionevent>
+                        <ignitiondelay>0.0</ignitiondelay>
+                      </ignitionconfiguration>
+                    </motormount>
+
+                    <subcomponents>
+                      <centeringring>
+                        <name>Centering Ring, CR-78</name>
+                        <id>c165d0ee-63eb-4280-bbd5-af567372e5ee</id>
+                        <instancecount>1</instancecount>
+                        <instanceseparation>0.0</instanceseparation>
+                        <axialoffset method="top">0.0</axialoffset>
+                        <position type="top">0.0</position>
+                        <material type="bulk" density="657.0">Fiber, bulk</material>
+                        <length>0.019049999999999997</length>
+                        <radialposition>0.0</radialposition>
+                        <radialdirection>0.0</radialdirection>
+                        <outerradius>0.010960099999999999</outerradius>
+                        <innerradius>0.0096647</innerradius>
+                      </centeringring>
+
+                      <engineblock>
+                        <name>Engine Block, TR-7</name>
+                        <id>998cd96e-f7b8-404b-aa94-c5208f0adbb9</id>
+                        <preset type="ENGINE_BLOCK" manufacturer="SEMROC Astronautics" partno="TR-7" digest="ce42f631c05513740b74e157ad7b2d3e"/>
+                        <axialoffset method="top">0.0</axialoffset>
+                        <position type="top">0.0</position>
+                        <material type="bulk" density="656.7569994">Fiber</material>
+                        <length>0.009524999999999999</length>
+                        <radialposition>0.0</radialposition>
+                        <radialdirection>0.0</radialdirection>
+                        <outerradius>0.0090551</outerradius>
+                        <thickness>0.0017526000000000009</thickness>
+                      </engineblock>
+
+                      <trapezoidfinset>
+                        <name>Yellow fin</name>
+                        <id>393bf881-65d8-4791-ad82-55d29fe9a5f8</id>
+                        <appearance>
+                          <paint red="255" green="243" blue="0" alpha="255"/>
+                          <shine>0.3</shine>
+                          <decal name="decals/Stage 1 fin.png" rotation="1.5707963267948966" edgemode="CLAMP">
+                            <center x="0.0" y="0.0"/>
+                            <offset x="-0.20000000000000004" y="-0.7999999999999999"/>
+                            <scale x="1.6666666666666665" y="1.6666666666666665"/>
+                          </decal>
+                        </appearance>
+                        <insideappearance>
+                          <edgessameasinside>false</edgessameasinside>
+                          <insidesameasoutside>true</insidesameasoutside>
+                          <paint red="255" green="243" blue="0" alpha="255"/>
+                          <shine>0.3</shine>
+                        </insideappearance>
+                        <instancecount>1</instancecount>
+                        <fincount>1</fincount>
+                        <radiusoffset method="surface">0.0</radiusoffset>
+                        <angleoffset method="relative">135.0</angleoffset>
+                        <rotation>135.0</rotation>
+                        <axialoffset method="middle">0.004762499999999999</axialoffset>
+                        <position type="middle">0.004762499999999999</position>
+                        <finish>normal</finish>
+                        <material type="bulk" density="680.0">Cardboard</material>
+                        <thickness>0.001397</thickness>
+                        <crosssection>square</crosssection>
+                        <cant>0.0</cant>
+                        <filletradius>0.0</filletradius>
+                        <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                        <rootchord>0.041275</rootchord>
+                        <tipchord>0.022224999999999998</tipchord>
+                        <sweeplength>0.009524999999999999</sweeplength>
+                        <height>0.053974999999999995</height>
+                      </trapezoidfinset>
+
+                      <trapezoidfinset>
+                        <name>Yellow fin</name>
+                        <id>47ffcd73-8318-4252-99a2-e19a1da28f2b</id>
+                        <appearance>
+                          <paint red="255" green="243" blue="0" alpha="255"/>
+                          <shine>0.3</shine>
+                        </appearance>
+                        <instancecount>1</instancecount>
+                        <fincount>1</fincount>
+                        <radiusoffset method="surface">0.0</radiusoffset>
+                        <angleoffset method="relative">45.0</angleoffset>
+                        <rotation>45.0</rotation>
+                        <axialoffset method="middle">0.004762499999999999</axialoffset>
+                        <position type="middle">0.004762499999999999</position>
+                        <finish>normal</finish>
+                        <material type="bulk" density="680.0">Cardboard</material>
+                        <thickness>0.001397</thickness>
+                        <crosssection>square</crosssection>
+                        <cant>0.0</cant>
+                        <filletradius>0.0</filletradius>
+                        <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                        <rootchord>0.041275</rootchord>
+                        <tipchord>0.022224999999999998</tipchord>
+                        <sweeplength>0.009524999999999999</sweeplength>
+                        <height>0.053974999999999995</height>
+                      </trapezoidfinset>
+
+                      <trapezoidfinset>
+                        <name>Black fin</name>
+                        <id>9ea67d76-5ece-4353-b5b3-26abf212635c</id>
+                        <appearance>
+                          <paint red="0" green="0" blue="0" alpha="255"/>
+                          <shine>0.3</shine>
+                        </appearance>
+                        <instancecount>1</instancecount>
+                        <fincount>1</fincount>
+                        <radiusoffset method="surface">0.0</radiusoffset>
+                        <angleoffset method="relative">-45.0</angleoffset>
+                        <rotation>-45.0</rotation>
+                        <axialoffset method="middle">0.004762499999999999</axialoffset>
+                        <position type="middle">0.004762499999999999</position>
+                        <finish>normal</finish>
+                        <material type="bulk" density="680.0">Cardboard</material>
+                        <thickness>0.001397</thickness>
+                        <crosssection>square</crosssection>
+                        <cant>0.0</cant>
+                        <filletradius>0.0</filletradius>
+                        <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                        <rootchord>0.041275</rootchord>
+                        <tipchord>0.022224999999999998</tipchord>
+                        <sweeplength>0.009524999999999999</sweeplength>
+                        <height>0.053974999999999995</height>
+                      </trapezoidfinset>
+
+                      <trapezoidfinset>
+                        <name>Black fin</name>
+                        <id>1c14a52a-8e92-4fcd-85d0-963eb3465f17</id>
+                        <appearance>
+                          <paint red="0" green="0" blue="0" alpha="255"/>
+                          <shine>0.3</shine>
+                        </appearance>
+                        <instancecount>1</instancecount>
+                        <fincount>1</fincount>
+                        <radiusoffset method="surface">0.0</radiusoffset>
+                        <angleoffset method="relative">-135.0</angleoffset>
+                        <rotation>-135.0</rotation>
+                        <axialoffset method="middle">0.004762499999999999</axialoffset>
+                        <position type="middle">0.004762499999999999</position>
+                        <finish>normal</finish>
+                        <material type="bulk" density="680.0">Cardboard</material>
+                        <thickness>0.001397</thickness>
+                        <crosssection>square</crosssection>
+                        <cant>0.0</cant>
+                        <filletradius>0.0</filletradius>
+                        <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                        <rootchord>0.041275</rootchord>
+                        <tipchord>0.022224999999999998</tipchord>
+                        <sweeplength>0.009524999999999999</sweeplength>
+                        <height>0.053974999999999995</height>
+                      </trapezoidfinset>
+                    </subcomponents>
+                  </bodytube>
+                </subcomponents>
+              </podset>
+            </subcomponents>
+          </bodytube>
+        </subcomponents>
+      </stage>
+
+      <stage>
+        <name>Stage 2</name>
+        <id>b6b91741-8322-4669-a77e-ea9cfbb4b440</id>
+        <separationevent>burnout</separationevent>
+        <separationdelay>0.0</separationdelay>
+        <separationconfiguration configid="5a3cf05d-70fb-4403-b029-7e8fef10c6bf">
+            <separationevent>burnout</separationevent>
+            <separationdelay>0.0</separationdelay>
+        </separationconfiguration>
+        <separationconfiguration configid="f669d7bd-2a19-481c-b226-ca6211699ee3">
+            <separationevent>burnout</separationevent>
+            <separationdelay>0.0</separationdelay>
+        </separationconfiguration>
+
+        <subcomponents>
+          <bodytube>
+            <name>Gap</name>
+            <id>009b1671-f12f-4301-8ad5-4e61a4d3d49f</id>
+            <appearance>
+              <paint red="187" green="187" blue="187" alpha="0"/>
+              <shine>0.3</shine>
+            </appearance>
+            <color red="0" green="0" blue="240" alpha="255"/>
+            <linestyle>solid</linestyle>
+            <finish>normal</finish>
+            <material type="bulk" density="894.4">Paper, spiral kraft glassine, Estes avg, bulk</material>
+            <length>0.0587375</length>
+            <thickness>0.0</thickness>
+            <radius>0.0096393</radius>
+          </bodytube>
+
+          <bodytube>
+            <name>18mm MMT, ST-730</name>
+            <id>f8c95b30-4493-4690-b1d9-6683aac2a335</id>
+            <preset type="BODY_TUBE" manufacturer="SEMROC" partno="ST-730" digest="2fb9fcdcff1cc845a02e4e322693ede0"/>
+            <appearance>
+              <paint red="0" green="0" blue="0" alpha="255"/>
+              <shine>0.3</shine>
+            </appearance>
+            <finish>normal</finish>
+            <material type="bulk" density="894.4">Paper, spiral kraft glassine, Estes avg, bulk</material>
+            <length>0.07619999999999999</length>
+            <thickness>5.587999999999999E-4</thickness>
+            <radius>0.0096393</radius>
+            <motormount>
+              <ignitionevent>automatic</ignitionevent>
+              <ignitiondelay>0.0</ignitiondelay>
+              <overhang>-0.004762499999999999</overhang>
+              <motor configid="eb644d0a-1ee2-4212-b16b-52769dc831ce">
+                <type>single</type>
+                <manufacturer>Estes</manufacturer>
+                <digest>22aec01287ea1e3b8c6f66b26fe5fea6</digest>
+                <designation>A8</designation>
+                <diameter>0.018</diameter>
+                <length>0.07</length>
+                <delay>0.0</delay>
+              </motor>
+              <ignitionconfiguration configid="eb644d0a-1ee2-4212-b16b-52769dc831ce">
+                <ignitionevent>burnout</ignitionevent>
+                <ignitiondelay>0.0</ignitiondelay>
+              </ignitionconfiguration>
+              <motor configid="5a3cf05d-70fb-4403-b029-7e8fef10c6bf">
+                <type>single</type>
+                <manufacturer>Estes</manufacturer>
+                <digest>524787762ca4da7db6dbfb7e43b4cd09</digest>
+                <designation>B6</designation>
+                <diameter>0.018</diameter>
+                <length>0.07</length>
+                <delay>0.0</delay>
+              </motor>
+              <ignitionconfiguration configid="5a3cf05d-70fb-4403-b029-7e8fef10c6bf">
+                <ignitionevent>burnout</ignitionevent>
+                <ignitiondelay>0.0</ignitiondelay>
+              </ignitionconfiguration>
+              <motor configid="f669d7bd-2a19-481c-b226-ca6211699ee3">
+                <type>single</type>
+                <manufacturer>Estes</manufacturer>
+                <digest>524787762ca4da7db6dbfb7e43b4cd09</digest>
+                <designation>B6</designation>
+                <diameter>0.018</diameter>
+                <length>0.07</length>
+                <delay>0.0</delay>
+              </motor>
+              <ignitionconfiguration configid="f669d7bd-2a19-481c-b226-ca6211699ee3">
+                <ignitionevent>burnout</ignitionevent>
+                <ignitiondelay>0.0</ignitiondelay>
+              </ignitionconfiguration>
+            </motormount>
+
+            <subcomponents>
+              <tubecoupler>
+                <name>Tube Coupler, HTC-7BP</name>
+                <id>cb4307a0-1d8b-4f4a-b664-315f13263dde</id>
+                <preset type="TUBE_COUPLER" manufacturer="SEMROC" partno="HTC-7B" digest="8a8bdbabb6dfa1eb57cad549c63b78c7"/>
+                <appearance>
+                  <paint red="0" green="0" blue="0" alpha="255"/>
+                  <shine>0.3</shine>
+                </appearance>
+                <axialoffset method="top">-0.0127</axialoffset>
+                <position type="top">-0.0127</position>
+                <material type="bulk" density="894.4">Paper, spiral kraft glassine, Estes avg, bulk</material>
+                <length>0.0254</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.01016</outerradius>
+                <thickness>4.953000000000006E-4</thickness>
+              </tubecoupler>
+
+              <engineblock>
+                <name>Engine Block, TR-7 (half)</name>
+                <id>34492da8-edcb-4620-8555-29a329c6a2c3</id>
+                <axialoffset method="bottom">0.0</axialoffset>
+                <position type="bottom">0.0</position>
+                <material type="bulk" density="656.7569994">Fiber</material>
+                <length>0.004762499999999999</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.0090551</outerradius>
+                <thickness>0.0017526000000000009</thickness>
+              </engineblock>
+
+              <trapezoidfinset>
+                <name>Black fin</name>
+                <id>45c074cf-e422-4423-b9a5-1a399451d0a7</id>
+                <appearance>
+                  <paint red="0" green="0" blue="0" alpha="255"/>
+                  <shine>0.3</shine>
+                  <decal name="decals/Stage 2 fin.png" rotation="1.5707963267948966" edgemode="CLAMP">
+                    <center x="0.0" y="0.0"/>
+                    <offset x="-0.20000000000000004" y="-0.7999999999999999"/>
+                    <scale x="1.6666666666666665" y="1.6666666666666665"/>
+                  </decal>
+                </appearance>
+                <insideappearance>
+                  <edgessameasinside>false</edgessameasinside>
+                  <insidesameasoutside>true</insidesameasoutside>
+                  <paint red="0" green="0" blue="0" alpha="255"/>
+                  <shine>0.3</shine>
+                </insideappearance>
+                <instancecount>1</instancecount>
+                <fincount>1</fincount>
+                <radiusoffset method="surface">0.0</radiusoffset>
+                <angleoffset method="relative">135.0</angleoffset>
+                <rotation>135.0</rotation>
+                <axialoffset method="middle">0.004762499999999999</axialoffset>
+                <position type="middle">0.004762499999999999</position>
+                <finish>normal</finish>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <thickness>0.001397</thickness>
+                <crosssection>square</crosssection>
+                <cant>0.0</cant>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                <rootchord>0.041275</rootchord>
+                <tipchord>0.022224999999999998</tipchord>
+                <sweeplength>0.009524999999999999</sweeplength>
+                <height>0.053974999999999995</height>
+              </trapezoidfinset>
+
+              <trapezoidfinset>
+                <name>Black fin</name>
+                <id>130448c0-885b-45a1-9505-8466b723fc31</id>
+                <appearance>
+                  <paint red="0" green="0" blue="0" alpha="255"/>
+                  <shine>0.3</shine>
+                </appearance>
+                <instancecount>1</instancecount>
+                <fincount>1</fincount>
+                <radiusoffset method="surface">0.0</radiusoffset>
+                <angleoffset method="relative">45.0</angleoffset>
+                <rotation>45.0</rotation>
+                <axialoffset method="middle">0.004762499999999999</axialoffset>
+                <position type="middle">0.004762499999999999</position>
+                <finish>normal</finish>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <thickness>0.001397</thickness>
+                <crosssection>square</crosssection>
+                <cant>0.0</cant>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                <rootchord>0.041275</rootchord>
+                <tipchord>0.022224999999999998</tipchord>
+                <sweeplength>0.009524999999999999</sweeplength>
+                <height>0.053974999999999995</height>
+              </trapezoidfinset>
+
+              <trapezoidfinset>
+                <name>Black fin</name>
+                <id>c89a0600-3bc9-46ff-9874-fb399d5b86b5</id>
+                <appearance>
+                  <paint red="0" green="0" blue="0" alpha="255"/>
+                  <shine>0.3</shine>
+                </appearance>
+                <instancecount>1</instancecount>
+                <fincount>1</fincount>
+                <radiusoffset method="surface">0.0</radiusoffset>
+                <angleoffset method="relative">-45.0</angleoffset>
+                <rotation>-45.0</rotation>
+                <axialoffset method="middle">0.004762499999999999</axialoffset>
+                <position type="middle">0.004762499999999999</position>
+                <finish>normal</finish>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <thickness>0.001397</thickness>
+                <crosssection>square</crosssection>
+                <cant>0.0</cant>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                <rootchord>0.041275</rootchord>
+                <tipchord>0.022224999999999998</tipchord>
+                <sweeplength>0.009524999999999999</sweeplength>
+                <height>0.053974999999999995</height>
+              </trapezoidfinset>
+
+              <trapezoidfinset>
+                <name>Black fin</name>
+                <id>cf1c710c-d0e0-4f25-a2b8-116d475f916a</id>
+                <appearance>
+                  <paint red="0" green="0" blue="0" alpha="255"/>
+                  <shine>0.3</shine>
+                </appearance>
+                <instancecount>1</instancecount>
+                <fincount>1</fincount>
+                <radiusoffset method="surface">0.0</radiusoffset>
+                <angleoffset method="relative">-135.0</angleoffset>
+                <rotation>-135.0</rotation>
+                <axialoffset method="middle">0.004762499999999999</axialoffset>
+                <position type="middle">0.004762499999999999</position>
+                <finish>normal</finish>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <thickness>0.001397</thickness>
+                <crosssection>square</crosssection>
+                <cant>0.0</cant>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                <rootchord>0.041275</rootchord>
+                <tipchord>0.022224999999999998</tipchord>
+                <sweeplength>0.009524999999999999</sweeplength>
+                <height>0.053974999999999995</height>
+              </trapezoidfinset>
+            </subcomponents>
+          </bodytube>
+        </subcomponents>
+      </stage>
+
+      <stage>
+        <name>Stage 1</name>
+        <id>be1371d6-6adf-4a7a-b1f1-3667efd63e6d</id>
+        <separationevent>burnout</separationevent>
+        <separationdelay>0.0</separationdelay>
+        <separationconfiguration configid="eb644d0a-1ee2-4212-b16b-52769dc831ce">
+            <separationevent>burnout</separationevent>
+            <separationdelay>0.0</separationdelay>
+        </separationconfiguration>
+        <separationconfiguration configid="5a3cf05d-70fb-4403-b029-7e8fef10c6bf">
+            <separationevent>burnout</separationevent>
+            <separationdelay>0.0</separationdelay>
+        </separationconfiguration>
+        <separationconfiguration configid="f669d7bd-2a19-481c-b226-ca6211699ee3">
+            <separationevent>burnout</separationevent>
+            <separationdelay>0.0</separationdelay>
+        </separationconfiguration>
+
+        <subcomponents>
+          <bodytube>
+            <name>18mm MMT, ST-730</name>
+            <id>2e222f30-c343-46b1-8df2-6c7df911d3f4</id>
+            <preset type="BODY_TUBE" manufacturer="SEMROC" partno="ST-730" digest="2fb9fcdcff1cc845a02e4e322693ede0"/>
+            <appearance>
+              <paint red="255" green="243" blue="0" alpha="255"/>
+              <shine>0.3</shine>
+            </appearance>
+            <finish>normal</finish>
+            <material type="bulk" density="894.4">Paper, spiral kraft glassine, Estes avg, bulk</material>
+            <length>0.07619999999999999</length>
+            <thickness>5.587999999999999E-4</thickness>
+            <radius>0.0096393</radius>
+            <motormount>
+              <ignitionevent>automatic</ignitionevent>
+              <ignitiondelay>0.0</ignitiondelay>
+              <overhang>-0.004762499999999999</overhang>
+              <motor configid="eb644d0a-1ee2-4212-b16b-52769dc831ce">
+                <type>single</type>
+                <manufacturer>Estes</manufacturer>
+                <digest>524787762ca4da7db6dbfb7e43b4cd09</digest>
+                <designation>B6</designation>
+                <diameter>0.018</diameter>
+                <length>0.07</length>
+                <delay>0.0</delay>
+              </motor>
+              <ignitionconfiguration configid="eb644d0a-1ee2-4212-b16b-52769dc831ce">
+                <ignitionevent>automatic</ignitionevent>
+                <ignitiondelay>0.0</ignitiondelay>
+              </ignitionconfiguration>
+              <motor configid="5a3cf05d-70fb-4403-b029-7e8fef10c6bf">
+                <type>single</type>
+                <manufacturer>Estes</manufacturer>
+                <digest>524787762ca4da7db6dbfb7e43b4cd09</digest>
+                <designation>B6</designation>
+                <diameter>0.018</diameter>
+                <length>0.07</length>
+                <delay>0.0</delay>
+              </motor>
+              <ignitionconfiguration configid="5a3cf05d-70fb-4403-b029-7e8fef10c6bf">
+                <ignitionevent>automatic</ignitionevent>
+                <ignitiondelay>0.0</ignitiondelay>
+              </ignitionconfiguration>
+              <motor configid="f669d7bd-2a19-481c-b226-ca6211699ee3">
+                <type>single</type>
+                <manufacturer>Estes</manufacturer>
+                <digest>c8743ef3fa99e14a89885cbe0ead47b2</digest>
+                <designation>C6</designation>
+                <diameter>0.018</diameter>
+                <length>0.07</length>
+                <delay>0.0</delay>
+              </motor>
+              <ignitionconfiguration configid="f669d7bd-2a19-481c-b226-ca6211699ee3">
+                <ignitionevent>automatic</ignitionevent>
+                <ignitiondelay>0.0</ignitiondelay>
+              </ignitionconfiguration>
+            </motormount>
+
+            <subcomponents>
+              <tubecoupler>
+                <name>Tube Coupler, HTC-7BP</name>
+                <id>f2c81630-1716-498d-8683-17bbba327025</id>
+                <preset type="TUBE_COUPLER" manufacturer="SEMROC" partno="HTC-7B" digest="8a8bdbabb6dfa1eb57cad549c63b78c7"/>
+                <appearance>
+                  <paint red="255" green="243" blue="0" alpha="255"/>
+                  <shine>0.3</shine>
+                </appearance>
+                <axialoffset method="top">-0.0127</axialoffset>
+                <position type="top">-0.0127</position>
+                <material type="bulk" density="894.4">Paper, spiral kraft glassine, Estes avg, bulk</material>
+                <length>0.0254</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.01016</outerradius>
+                <thickness>4.953000000000006E-4</thickness>
+              </tubecoupler>
+
+              <engineblock>
+                <name>Engine Block, TR-7 (half)</name>
+                <id>2cffbf39-5401-4efd-a687-859d9255324a</id>
+                <axialoffset method="bottom">0.0</axialoffset>
+                <position type="bottom">0.0</position>
+                <material type="bulk" density="656.7569994">Fiber</material>
+                <length>0.004762499999999999</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.0090551</outerradius>
+                <thickness>0.0017526000000000009</thickness>
+              </engineblock>
+
+              <trapezoidfinset>
+                <name>Yellow fin</name>
+                <id>9abbd18e-0443-4e61-a1ad-07a25b60c47f</id>
+                <appearance>
+                  <paint red="255" green="243" blue="0" alpha="255"/>
+                  <shine>0.3</shine>
+                  <decal name="decals/Stage 3 fin.png" rotation="1.5707963267948966" edgemode="CLAMP">
+                    <center x="0.0" y="0.0"/>
+                    <offset x="-0.20000000000000004" y="-0.7999999999999999"/>
+                    <scale x="1.6666666666666665" y="1.6666666666666665"/>
+                  </decal>
+                </appearance>
+                <insideappearance>
+                  <edgessameasinside>false</edgessameasinside>
+                  <insidesameasoutside>true</insidesameasoutside>
+                  <paint red="255" green="243" blue="0" alpha="255"/>
+                  <shine>0.3</shine>
+                </insideappearance>
+                <instancecount>1</instancecount>
+                <fincount>1</fincount>
+                <radiusoffset method="surface">0.0</radiusoffset>
+                <angleoffset method="relative">135.0</angleoffset>
+                <rotation>135.0</rotation>
+                <axialoffset method="middle">0.004762499999999999</axialoffset>
+                <position type="middle">0.004762499999999999</position>
+                <finish>normal</finish>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <thickness>0.001397</thickness>
+                <crosssection>square</crosssection>
+                <cant>0.0</cant>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                <rootchord>0.041275</rootchord>
+                <tipchord>0.022224999999999998</tipchord>
+                <sweeplength>0.009524999999999999</sweeplength>
+                <height>0.053974999999999995</height>
+              </trapezoidfinset>
+
+              <trapezoidfinset>
+                <name>Yellow fin</name>
+                <id>717e3b6f-3d2c-46f1-8b9e-8946e0eae058</id>
+                <appearance>
+                  <paint red="255" green="243" blue="0" alpha="255"/>
+                  <shine>0.3</shine>
+                </appearance>
+                <instancecount>1</instancecount>
+                <fincount>1</fincount>
+                <radiusoffset method="surface">0.0</radiusoffset>
+                <angleoffset method="relative">45.0</angleoffset>
+                <rotation>45.0</rotation>
+                <axialoffset method="middle">0.004762499999999999</axialoffset>
+                <position type="middle">0.004762499999999999</position>
+                <finish>normal</finish>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <thickness>0.001397</thickness>
+                <crosssection>square</crosssection>
+                <cant>0.0</cant>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                <rootchord>0.041275</rootchord>
+                <tipchord>0.022224999999999998</tipchord>
+                <sweeplength>0.009524999999999999</sweeplength>
+                <height>0.053974999999999995</height>
+              </trapezoidfinset>
+
+              <trapezoidfinset>
+                <name>Yellow fin</name>
+                <id>bf44d9c5-3612-4c5d-b022-49a4c41a09ab</id>
+                <appearance>
+                  <paint red="255" green="243" blue="0" alpha="255"/>
+                  <shine>0.3</shine>
+                </appearance>
+                <instancecount>1</instancecount>
+                <fincount>1</fincount>
+                <radiusoffset method="surface">0.0</radiusoffset>
+                <angleoffset method="relative">-45.0</angleoffset>
+                <rotation>-45.0</rotation>
+                <axialoffset method="middle">0.004762499999999999</axialoffset>
+                <position type="middle">0.004762499999999999</position>
+                <finish>normal</finish>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <thickness>0.001397</thickness>
+                <crosssection>square</crosssection>
+                <cant>0.0</cant>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                <rootchord>0.041275</rootchord>
+                <tipchord>0.022224999999999998</tipchord>
+                <sweeplength>0.009524999999999999</sweeplength>
+                <height>0.053974999999999995</height>
+              </trapezoidfinset>
+
+              <trapezoidfinset>
+                <name>Yellow fin</name>
+                <id>bff648d6-f2d4-42d5-9275-962f76778fdf</id>
+                <appearance>
+                  <paint red="255" green="243" blue="0" alpha="255"/>
+                  <shine>0.3</shine>
+                </appearance>
+                <instancecount>1</instancecount>
+                <fincount>1</fincount>
+                <radiusoffset method="surface">0.0</radiusoffset>
+                <angleoffset method="relative">-135.0</angleoffset>
+                <rotation>-135.0</rotation>
+                <axialoffset method="middle">0.004762499999999999</axialoffset>
+                <position type="middle">0.004762499999999999</position>
+                <finish>normal</finish>
+                <material type="bulk" density="680.0">Cardboard</material>
+                <thickness>0.001397</thickness>
+                <crosssection>square</crosssection>
+                <cant>0.0</cant>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="680.0">Cardboard</filletmaterial>
+                <rootchord>0.041275</rootchord>
+                <tipchord>0.022224999999999998</tipchord>
+                <sweeplength>0.009524999999999999</sweeplength>
+                <height>0.053974999999999995</height>
+              </trapezoidfinset>
+            </subcomponents>
+          </bodytube>
+        </subcomponents>
+      </stage>
+    </subcomponents>
+  </rocket>
+
+  <simulations>
+    <simulation status="notsimulated">
+      <name>Simulation 1</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>eb644d0a-1ee2-4212-b16b-52769dc831ce</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.05</timestep>
+      </conditions>
+      <flightdata maxaltitude="136.027" maxvelocity="57.169" maxacceleration="116.262" maxmach="0.169" timetoapogee="5.468" flighttime="13.394" groundhitvelocity="31.004" launchrodvelocity="12.931" optimumdelay="3.548">
+        <warning>No recovery device defined in the simulation.</warning>
+        <warning>Discontinuity in rocket body diameter:  &amp;amp;quot;Body Tube, ST-8157, Gap&amp;amp;quot;</warning>
+        <warning>Discontinuity in rocket body diameter:  &amp;amp;quot;Body Tube, ST-8157, 18mm MMT, ST-730&amp;amp;quot;</warning>
+        <warning>Overlap in airframe components:  &amp;amp;quot;Body Tube, ST-8157, 18mm MMT, ST-730&amp;amp;quot;</warning>
+        <warning>Forward end of airframe is open (radius is &amp;amp;gt; 0):  &amp;amp;quot;Gap&amp;amp;quot;</warning>
+      </flightdata>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 2</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>5a3cf05d-70fb-4403-b029-7e8fef10c6bf</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.05</timestep>
+      </conditions>
+      <flightdata maxaltitude="195.558" maxvelocity="71.483" maxacceleration="128.093" maxmach="0.211" timetoapogee="6.309" flighttime="36.1" groundhitvelocity="7.489" launchrodvelocity="12.289" optimumdelay="3.859">
+        <warning>No recovery device defined in the simulation.</warning>
+        <warning>Discontinuity in rocket body diameter:  &amp;amp;quot;Body Tube, ST-8157, Gap&amp;amp;quot;</warning>
+        <warning>Discontinuity in rocket body diameter:  &amp;amp;quot;Body Tube, ST-8157, 18mm MMT, ST-730&amp;amp;quot;</warning>
+        <warning>Overlap in airframe components:  &amp;amp;quot;Body Tube, ST-8157, 18mm MMT, ST-730&amp;amp;quot;</warning>
+        <warning>Forward end of airframe is open (radius is &amp;amp;gt; 0):  &amp;amp;quot;Gap&amp;amp;quot;</warning>
+      </flightdata>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>Simulation 3</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>f669d7bd-2a19-481c-b226-ca6211699ee3</configid>
+        <launchrodlength>1.0</launchrodlength>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>90.0</launchroddirection>
+        <windaverage>2.0</windaverage>
+        <windturbulence>0.1</windturbulence>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>28.61</launchlatitude>
+        <launchlongitude>-80.6</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.05</timestep>
+      </conditions>
+      <flightdata maxaltitude="290.708" maxvelocity="91.622" maxacceleration="152.856" maxmach="0.271" timetoapogee="7.734" flighttime="19.219" groundhitvelocity="33.488" launchrodvelocity="12.47" optimumdelay="4.204">
+        <warning>No recovery device defined in the simulation.</warning>
+        <warning>Discontinuity in rocket body diameter:  &amp;quot;Body Tube, ST-8157, Gap&amp;quot;</warning>
+        <warning>Discontinuity in rocket body diameter:  &amp;quot;Body Tube, ST-8157, 18mm MMT, ST-730&amp;quot;</warning>
+        <warning>Overlap in airframe components:  &amp;quot;Body Tube, ST-8157, 18mm MMT, ST-730&amp;quot;</warning>
+        <warning>Forward end of airframe is open (radius is &amp;gt; 0):  &amp;quot;Gap&amp;quot;</warning>
+        <warning>Forward end of airframe is open (radius is &amp;gt; 0):  &amp;quot;18mm MMT, ST-730&amp;quot;</warning>
+        <warning>Large angle of attack encountered (23.9).</warning>
+      </flightdata>
+    </simulation>
+  </simulations>
+  <photostudio>
+    <roll>3.3161255787892263</roll>
+    <yaw>6.021385919380437</yaw>
+    <pitch>2.478367537831948</pitch>
+    <advance>0.007619999999999999</advance>
+    <viewAlt>0.5754054054054026</viewAlt>
+    <viewAz>0.7675000000000001</viewAz>
+    <viewDistance>0.4826</viewDistance>
+    <fov>1.4</fov>
+    <lightAlt>0.13962634015954636</lightAlt>
+    <lightAz>-0.8028514559173916</lightAz>
+    <sunlight red="255" green="255" blue="255" alpha="255"/>
+    <ambiance>0.3</ambiance>
+    <skyColor red="55" green="95" blue="155" alpha="255"/>
+    <motionBlurred>false</motionBlurred>
+    <flame>false</flame>
+    <flameColor red="255" green="100" blue="50" alpha="255"/>
+    <smoke>false</smoke>
+    <smokeColor red="230" green="230" blue="230" alpha="102"/>
+    <sparks>false</sparks>
+    <exhaustScale>1.0</exhaustScale>
+    <flameAspectRatio>1.0</flameAspectRatio>
+    <sparkConcentration>0.2</sparkConcentration>
+    <sparkWeight>0.0</sparkWeight>
+    <sky></sky>
+  </photostudio>
+</openrocket>

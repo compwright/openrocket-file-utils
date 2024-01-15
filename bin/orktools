@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+use Compwright\OpenrocketFileUtils\Commands\BomTableCommand;
+use Compwright\OpenrocketFileUtils\Commands\FinStatsTableCommand;
+use Symfony\Component\Console\Application;
+
+if (isset($_composer_autoload_path)) {
+    include $_composer_autoload_path ?? __DIR__ . '/../vendor/autoload.php';
+} else {
+    require dirname(__DIR__) . '/vendor/autoload.php';
+}
+
+$application = new Application();
+
+$application->add(new BomTableCommand('bom'));
+$application->add(new FinStatsTableCommand('fin-stats'));
+
+$application->run();

@@ -37,13 +37,17 @@ class TableView
         $data = iterator_to_array($this->data);
         $table = (new Table(new ConsoleOutput()))
             ->setHeaders($data[0])
-            ->setRows(array_slice($data, 1));
+            ->setRows(array_slice($data, 1, -1))
+            ->setFooterTitle(implode(': ', end($data)));
         $table->render();
     }
 
     private function csv(): void
     {
-        Writer::createFromStream(STDOUT)->insertAll($this->data);
+        Writer::createFromStream(STDOUT)->insertAll(
+            // omit footer row
+            array_slice(iterator_to_array($this->data), 0, -1)
+        );
     }
 
     private function html(): void
@@ -54,8 +58,9 @@ class TableView
             ->tr('data-record-offset')
             ->td('title');
         echo $converter->convert(
-            array_slice($data, 1),
-            $data[0]
+            array_slice($data, 1, -1),
+            $data[0],
+            end($data)
         );
     }
 
@@ -65,7 +70,7 @@ class TableView
         echo json_encode(
             array_map(
                 fn ($row) => array_combine($data[0], $row),
-                array_slice($data, 1)
+                array_slice($data, 1, -1)
             ),
             JSON_THROW_ON_ERROR
         );

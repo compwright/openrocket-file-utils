@@ -23,11 +23,14 @@ class FinDataTableIterator implements IteratorAggregate
     {
         yield ['name', 'perimeter'];
 
+        $total = 0.0;
+
         foreach ($this->fins as $fin) {
-            yield [
-                $fin->name(),
-                $fin->perimeter() * $fin->quantity(),
-            ];
+            $perimeter = $fin->perimeter() * $fin->quantity();
+            $total += $perimeter;
+            yield [$fin->name(), $perimeter];
         }
+
+        yield ['total', $total];
     }
 }

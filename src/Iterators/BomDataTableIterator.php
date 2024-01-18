@@ -23,7 +23,11 @@ class BomDataTableIterator implements IteratorAggregate
     {
         yield ['quantity', 'type', 'name', 'manufacturer', 'part'];
 
+        $total = 0;
+
         foreach ($this->components as $component) {
+            $total += $component->quantity();
+
             yield [
                 $component->quantity(),
                 $component->type(),
@@ -32,5 +36,7 @@ class BomDataTableIterator implements IteratorAggregate
                 $component->partNumber(),
             ];
         }
+
+        yield ['total', $total];
     }
 }
